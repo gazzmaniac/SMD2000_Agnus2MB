@@ -9,7 +9,14 @@ This card is for constructors who wish to use a 2 MB 8375 Agnus from an A500+ or
 
 If you intend to use a 1 MB or 512 kB Agnus from an Amiga 500 or Amiga 2000: 8370; 8371; 8372A; and certain 8375s, build a 1 MB card.  
 
-There are two other Agnus cards to choose from; a 1 MB card that uses the TTH ram from the Amiga, and one which uses SMD ram (still coming, it's too tall).  The 1 MB TTH version is probably the easiest to get working but it is too tall for the ML09 case.
+There are two other Agnus cards to choose from; a 1 MB card that uses the TTH ram from the Amiga, and one which uses SMD ram (not yet released).  The 1 MB TTH version is probably the easiest to get working but it is too tall for the ML09 case.
+
+2 MB Agnus card: https://github.com/gazzmaniac/SMD2000_Agnus2MB 
+
+1 MB SMD Agnus card: https://github.com/gazzmaniac/Agnus_1MB 
+
+1 MB TTH Agnus card: https://github.com/gazzmaniac/Agnus_1MB_TTH
+
 
 ## Licensing
 Design is open source hardware.
@@ -23,6 +30,10 @@ Design is open source hardware.
 
 ## Requirements
 To make a complete SMD2000 you also need to build a motherboard and a CPU card.  They are documented separately.
+
+Motherboard: https://github.com/gazzmaniac/SMD2000/ 
+
+Basic CPU card: https://github.com/gazzmaniac/SMD2000_cpu-card
 
 The SMD2000 project requires a donor Amiga, either an A500, A500+, A2000, or A600 plus a Gary.
 
