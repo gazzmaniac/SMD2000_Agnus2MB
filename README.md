@@ -11,11 +11,9 @@ If you intend to use a 1 MB or 512 kB Agnus from an Amiga 500 or Amiga 2000: 837
 
 There are two other Agnus cards to choose from; a 1 MB card that uses the TTH ram from the Amiga, and one which uses SMD ram (not yet released).  The 1 MB TTH version is probably the easiest to get working but it is too tall for the ML09 case.
 
-2 MB Agnus card: https://github.com/gazzmaniac/SMD2000_Agnus2MB 
+1 MB SMD Agnus card: https://github.com/gazzmaniac/SMD2000_Agnus_1MB 
 
-1 MB SMD Agnus card: https://github.com/gazzmaniac/Agnus_1MB 
-
-1 MB TTH Agnus card: https://github.com/gazzmaniac/Agnus_1MB_TTH
+1 MB TTH Agnus card: https://github.com/gazzmaniac/SMD2000_Agnus_1MB_TTH 
 
 
 ## Licensing
