@@ -9,7 +9,7 @@ This card is for constructors who wish to use a 2 MB 8375 Agnus from an A500+ or
 
 If you intend to use a 1 MB or 512 kB Agnus from an Amiga 500 or Amiga 2000: 8370; 8371; 8372A; and certain 8375s, build a 1 MB card.  
 
-There are two other Agnus cards to choose from; a 1 MB card that uses the TTH ram from the Amiga, and one which uses SMD ram (not yet released).  The 1 MB TTH version is probably the easiest to get working but it is too tall for the ML09 case.
+There are two other Agnus cards to choose from; a 1 MB card that uses the TTH ram from the Amiga, and one which uses SMD ram.  The 1 MB TTH version is probably the easiest to get working but it is too tall for the ML09 case.
 
 1 MB SMD Agnus card: https://github.com/gazzmaniac/SMD2000_Agnus_1MB 
 
@@ -26,6 +26,13 @@ Design is open source hardware.
 6. Any portions of this design from other projects shall be licensed according to their respective licenses if their licenses are not compatible with CERN-OHL-S or the conditions above.
 7. All Other Rights Reserved.
 
+
+## Change Log
+Rev 1.01
+Substantial redesign of board to 45 mm width to fit under CD Rom in ML09 case.  Now four layers (added internal ground plane and VCC plane).
+Removed JP4 (bypasses U32 CAS multiplexing).
+
+
 ## Requirements
 To make a complete SMD2000 you also need to build a motherboard and a CPU card.  They are documented separately.
 
@@ -38,7 +45,7 @@ The SMD2000 project requires a donor Amiga, either an A500, A500+, A2000, or A60
 If you intend to use the Kicad files you will need the SMD2000 symbol and footprint libraries.  They are included in the SMD2000 motherboard package.  You will probably need to change the path in Kicad.
 
 ## Notes and Eratta
-Forgot to take the gap between the CD Rom and the top of the case into account so this card (and its 1 MB counterpart) are too tall to fit under the CD Rom in the ML09 case.  Revision is coming.
+Now fits under the CD Rom in the ML09 case.
 
 This card is essentially the onboard and trapdoor expansion ram from the in the A500+ but with 16x256 SMD ram chips instead of 4x256 TTH chips.  Component numbering sometimes follows the A500+ rather than the A2000.
 
@@ -55,7 +62,7 @@ The A & DRD Buses on the A2000 do not have pullup resistors on the A200 but do o
 ## Jumpers
 J101 is the same as JP2 in A500+.  It probably shouldn't be changed since you have 2 mb ram fitted.
 JP3 from A500+ (swaps lower and upper ram banks) has been removed.  
-JP4 is the same as J4 on A500+, it bypasses U32 CAS multiplexing.  Name has been changed slightly to conform with Kicad rules.  It'd be stupid to close this jumper, if you're going to the effort of using a $200 2 MB Agnus you're not going to try and save $5 and only use 1 MB ram.
+JP4 from A500+ (bypasses U32 CAS multiplexing) has been removed.  If you're going to use a $200 2 MB Agnus you're not going to try and save $5 and only use 1 MB chip ram.
 
 ## Notes about Agnus revisions
 This board is designed for the 2 MB 8375 Agnus from the A500+ and A600 only.  NOT ALL 8375s will work!!!!

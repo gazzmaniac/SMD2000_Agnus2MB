@@ -7,8 +7,6 @@ CN1,PinHeader_2x40_P2.54mm_Vertical,1,CN_Conn_02x40_Odd_Even,
 E666,0805,1,22 pF,
 FB101,1206,1,FB,C6401928
 J101,SolderJumper-3_P1.3mm_Bridged23_RoundedPad1.0x1.5mm_NumberLabels,1,SolderJumper_3_Bridged23,
-JP4A1,SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm,1,JP4A,
-JP4B1,SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm,1,JP4B,
 "R201, R202, RP910.10, RP910.9",0805,4,4.7K,C4279556
 "RP201, RP202, RP203, RP903",CAY1647R0F4LF,4,68R,
 RP201.5,0805,1,68,C137411
